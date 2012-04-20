@@ -13,9 +13,6 @@ function phone ()
 alias focus='sudo cp /etc/hosts.focus /etc/hosts'
 alias unfocus='sudo cp /etc/hosts.orig /etc/hosts'
 
-# MT
-alias alpha='ssh valentin@alpha.mediatemple.net'
-
 # Recursively delete .DS_Store files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
