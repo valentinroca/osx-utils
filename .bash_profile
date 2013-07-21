@@ -9,10 +9,6 @@ function phone ()
     /usr/bin/curl https://api.opencnam.com/v1/phone/$1
 }
 
-# Focus
-alias focus='sudo cp /etc/hosts.focus /etc/hosts'
-alias unfocus='sudo cp /etc/hosts.orig /etc/hosts'
-
 # Recursively delete .DS_Store files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 

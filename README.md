@@ -1,3 +1,3 @@
 ### osx-utils
 
-Cool stuff I use on OSX.
+Various utilities for OSX.
