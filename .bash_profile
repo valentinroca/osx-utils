@@ -3,12 +3,6 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en1"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
-# Check phone number
-function phone ()
-{
-    /usr/bin/curl https://api.opencnam.com/v1/phone/$1
-}
-
 # Recursively delete .DS_Store files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
