@@ -1,3 +1,6 @@
+# Terraform
+alias tf="terraform"
+
 # IP addresses
 alias ip="curl icanhazip.com"
 alias localip="ipconfig getifaddr en0"
